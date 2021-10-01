@@ -1,0 +1,4 @@
+node_modules
+IGNOREME.md
+.DS_Store
+.env
