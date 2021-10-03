@@ -14,13 +14,13 @@ Create an account or sign in to view books, and add to your Saved Book List.
 
 ## Usage
 
-For a live deployment: [VIEW LIVE DEPLOYMENT](https://infinite-citadel-61093.herokuapp.com/)
+For a live deployment: [VIEW LIVE DEPLOYMENT](https://whispering-river-55779.herokuapp.com/)
 
 ![Screenshot of Local Deployment](assets/screenshot.jpg)
 
 ## Walkthrough
 
-Video walkthrough of working application: [YouTube](https://youtu.be/Yi4gxHCAjnY)
+Video walkthrough of working application: [YouTube](https://youtu.be/ONyXT6dGT6c)
 
 ## Credits
 
@@ -28,9 +28,15 @@ Video walkthrough of working application: [YouTube](https://youtu.be/Yi4gxHCAjnY
 
 ## Features
 
-- Enter deposits and expenses!
-- Online/offline functionality
-- Progressive Web Application
+- Has an Apollo Server that uses GraphQL queries and mutations to fetch and modify data as middleware.
+
+- Include schema settings for resolvers and typeDefs as outlined.
+
+- Authentication middleware works in the context of a GraphQL API.
+
+- Application can communicate with the Apollo Server.
+
+- Deployed to Heroku.
 
 ## How to Contribute
 
