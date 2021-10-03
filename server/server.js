@@ -21,7 +21,7 @@ const server = new ApolloServer({
 });
 
 // Apply Apollo as Middleware
-server.applyMiddleware({app});
+server.applyMiddleware({ app });
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
